@@ -1,0 +1,71 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
+  - enabled: 1
+    path: Assets/Levels/Level0.unity
+    guid: 89b6ae0fa6a73de40850817bc87bd8e1
+  - enabled: 1
+    path: Assets/Levels/Level1.unity
+    guid: 3fc8acdd13e6c734bafef6554d6fdbcd
+  - enabled: 1
+    path: Assets/Levels/Level2.unity
+    guid: 189c7851f3668e04bb5d5e3550cdafd6
+  - enabled: 1
+    path: Assets/Levels/Level3.unity
+    guid: dd341bf23885a0a4796a048eaf9dd245
+  - enabled: 1
+    path: Assets/Levels/Level4.unity
+    guid: 5cd912379acc6b4409bb2307b14b9b6c
+  - enabled: 1
+    path: Assets/Levels/Level5.unity
+    guid: 5d79df94044cb4445935c9c3a9243df2
+  - enabled: 1
+    path: Assets/Levels/Level6.unity
+    guid: 1bc780f1055bd3a4f95f67107e0ac298
+  - enabled: 1
+    path: Assets/Levels/Level7.unity
+    guid: e76a1520264e4814fbbe257e0117ac88
+  - enabled: 1
+    path: Assets/Levels/Level8.unity
+    guid: 91f844c383701f24291adbf81137e5a6
+  - enabled: 1
+    path: Assets/Levels/Level9.unity
+    guid: 3ed5b26be5e10f34eb7903c50ed75aad
+  - enabled: 1
+    path: Assets/Levels/Level10.unity
+    guid: b6cd6c9aac33e4f4786d7fb9c7342bd3
+  - enabled: 1
+    path: Assets/Levels/Level11.unity
+    guid: a7781844b2bfce5468ea45f0f9443cc9
+  - enabled: 1
+    path: Assets/Levels/Level12.unity
+    guid: e97887dfda32d8c4981caf0616a6bdd7
+  - enabled: 1
+    path: Assets/Levels/Level13.unity
+    guid: 44d00a70cd7d55b4aa8d1555a07b1e3b
+  - enabled: 1
+    path: Assets/Levels/Level14.unity
+    guid: 6eef2381218d37547892e693531a658b
+  - enabled: 1
+    path: Assets/Levels/Level15.unity
+    guid: c52cc2d935ed4f24ba59ef6b6366ef02
+  - enabled: 1
+    path: Assets/Levels/Level16.unity
+    guid: 881549d4dc37c8c45a19a26d4546c43c
+  - enabled: 1
+    path: Assets/Levels/Level17.unity
+    guid: 1d62d1de4ab965941abb17403a8698a3
+  - enabled: 1
+    path: Assets/Levels/Level18.unity
+    guid: c94b9585e0cd46f47991935de85945d8
+  m_configObjects:
+    com.unity.adaptiveperformance.loader_settings: {fileID: 11400000, guid: 7c154421a23c48b468d80deec7a61785, type: 2}
+    com.unity.adaptiveperformance.samsung.android.provider_settings: {fileID: 11400000, guid: cb03a4ad664d45f48a12fc083f6c34e6, type: 2}
+    com.unity.adaptiveperformance.simulator.provider_settings: {fileID: 11400000, guid: edb5e91c91afac5479a418a4a8e42493, type: 2}
