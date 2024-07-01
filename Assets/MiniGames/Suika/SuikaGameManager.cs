@@ -69,7 +69,7 @@ public class SuikaGameManager : MonoBehaviour
 
     void UpdateNextFruitToSpawn()
     {
-        nextFruitIndex = Random.Range(minIndex, maxIndex); // Rastgele bir endekste sýradaki meyve seç
+        nextFruitIndex = Random.Range(minIndex+(score/100), maxIndex+(score/100)); // Rastgele bir endekste sýradaki meyve seç
         nextFruitToSpawn.sprite = fruitPrefabs[nextFruitIndex].GetComponent<SpriteRenderer>().sprite; // Seçilen meyvenin sprite'ýný al ve UI'da göster
     }
 
