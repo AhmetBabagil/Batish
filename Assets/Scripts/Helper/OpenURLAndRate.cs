@@ -6,7 +6,7 @@ public class OpenURLAndRate : MonoBehaviour
 {
     public GameObject Rate5Holder;
     void Start()
-    {
+    {/*
         PlayerPrefs.SetInt("rate5counter", PlayerPrefs.GetInt("rate5counter")+1);
         if (PlayerPrefs.GetInt("rate5counter") == 3)//////////////////77sonradan deðiþtirildi
         {
@@ -15,6 +15,7 @@ public class OpenURLAndRate : MonoBehaviour
         {
             Rate5Holder.SetActive(false);
         }
+        */
     }
 
     public void Rate()
@@ -25,6 +26,8 @@ public class OpenURLAndRate : MonoBehaviour
 #elif UNITY_IPHONE
 
 #endif
+   /*
         Rate5Holder.SetActive(false);
+   */
     }
 }
