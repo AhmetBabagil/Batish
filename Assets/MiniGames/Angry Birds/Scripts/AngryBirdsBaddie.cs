@@ -36,7 +36,7 @@ public class AngryBirdsBaddie : MonoBehaviour
     {
         float impactVelocity = collision.relativeVelocity.magnitude; 
   
-        if(impactVelocity > _damageTreshHold)
+        if(impactVelocity > Random.Range(_damageTreshHold/2, 3*(_damageTreshHold/2)))
         {
             DamageBaddie(impactVelocity);
         }

@@ -120,8 +120,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f3729dbe0413bce419a0e8edca91622f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _maxHealth: 20
-  _damageTreshHold: 0.2
+  _maxHealth: 10
+  _damageTreshHold: 0
   _brickDeathParticle: {fileID: 1457349116315704698, guid: e253faf5d293f2c48ae6e47704053b50, type: 3}
 --- !u!58 &3266182153918425446
 CircleCollider2D:

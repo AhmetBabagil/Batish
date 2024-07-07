@@ -137,5 +137,5 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _maxHealth: 3
-  _damageTreshHold: 0.2
+  _damageTreshHold: 0.15
   _baddieDeathParticle: {fileID: 1457349116315704698, guid: e253faf5d293f2c48ae6e47704053b50, type: 3}
