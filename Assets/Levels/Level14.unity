@@ -2021,7 +2021,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   stepDelay: 1
-  moveDelay: 0.1
+  moveDelay: 0.035
   lockDelay: 0.5
 --- !u!1 &831640819
 GameObject:
