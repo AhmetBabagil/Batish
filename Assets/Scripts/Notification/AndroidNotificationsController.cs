@@ -27,5 +27,17 @@ public class AndroidNotificationsController : MonoBehaviour
 
         AndroidNotificationCenter.SendNotification(notification, "default_channel");
     }
+
+    public void SendNotificationInHours(string title, string text, int fireTimeInHours)
+    {
+        var notification = new AndroidNotification()
+        {
+            Title = title,
+            Text = text,
+            FireTime = System.DateTime.Now.AddHours(fireTimeInHours)
+        };
+
+        AndroidNotificationCenter.SendNotification(notification, "default_channel");
+    }
 #endif
 }

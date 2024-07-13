@@ -14,6 +14,8 @@ public class NativeNotificationsController : MonoBehaviour
 #if UNITY_ANDROID
         androidNotificationsController.RegisterNotificationChannel();
         androidNotificationsController.SendNotification("My Bou", "My Boubouu, I miss you", 180);
+        //
+        androidNotificationsController.SendNotificationInHours("Calling all Bou's friends!", "Time to play minigames with Bou! Ready for endless fnu?", 24);
 
 #elif UNITY_IOS
         StartCoroutine(iosNotificationsController.RequestAuthorization());
