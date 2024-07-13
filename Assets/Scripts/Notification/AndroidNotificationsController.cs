@@ -10,7 +10,7 @@ public class AndroidNotificationsController : MonoBehaviour
         {
             Id = "default_channel",
             Name = "Default Name",
-            Importance = Importance.Default,
+            Importance = Importance.High,
             Description = "Generic Description"
         };
         AndroidNotificationCenter.RegisterNotificationChannel(channel);
