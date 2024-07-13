@@ -13,7 +13,6 @@ public class NativeNotificationsController : MonoBehaviour
     {
 #if UNITY_ANDROID
         androidNotificationsController.RegisterNotificationChannel();
-        if(Random.Range(0,1)<0.5)
         androidNotificationsController.SendNotification("My Bou", "My Boubouu, I miss you", 180);
      
         //
